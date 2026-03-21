@@ -2,9 +2,9 @@
 
 # Étape 1 : Création de l’émulateur AVD sans Play Store
 
-Pour ce lab je vais utiliser un emulateur pixel 6 System Image: Google APIs (API 36)
+Pour ce lab je vais utiliser un emulateur pixel 5 System Image: Google APIs (API 30)
 
-<img width="1127" height="860" alt="image" src="https://github.com/user-attachments/assets/8f00d0c4-052b-4978-a448-e8fe5e9c85de" />
+<img width="1108" height="811" alt="image" src="https://github.com/user-attachments/assets/2675fd6f-979d-4c0b-aac5-14041e86a739" />
 
 # Étape 2 : Cloner MobSF pour utiliser les scripts AVD officiels
 
@@ -34,7 +34,54 @@ Donc L’émulateur est maintenant rooté et configuré pour MobSF.
 
 # Étape 4 : Installation et lancement de MobSF via Docker 
 
+1. Téléchargement de l'image MobSF:
+
 Dans un nouveau terminal (émulateur toujours en marche) :
+
+<img width="962" height="367" alt="image" src="https://github.com/user-attachments/assets/16f0793c-8df0-48a4-bec0-4c20777d31e3" />
+
+Image MobSF téléchargée avec succès.
+
+2. Lancement de MobSF en utilisant l'identifiant de notre émulateur ( emulator-5554 ):
+
+<img width="1372" height="1022" alt="image" src="https://github.com/user-attachments/assets/c5affa1c-185e-4772-8252-acc256342562" />
+
+3. Dans notre navigateur, on va ouvrir  : http://127.0.0.1:8000  (émulateur toujours en marche AVANT MobSF, sinon l’analyse dynamique échoue).
+
+Login / Mot de passe par défaut : mobsf / mobsf
+
+<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/fb3243e8-61d9-4708-b360-b3b25e3328c5" />
+
+<img width="1913" height="973" alt="image" src="https://github.com/user-attachments/assets/15345227-d11b-4d7b-8ce7-9f0d65df9d21" />
+
+# Étape 5 : Téléchargement de l’APK DIVA (Damn Insecure and Vulnerable App)
+
+<img width="911" height="247" alt="image" src="https://github.com/user-attachments/assets/dfd3c744-fecc-4c76-9b53-fcd7f5f4f1b4" />
+
+# Étape 6 : Analyse Statique + Dynamique de DIVA
+
+1. Dans MobSF → Upload & Analyze → choisissez votre diva.apk (pour notre cas DivaApplication.apk).
+2. Aprés, on va attendre la fin de l’analyse statique:
+
+<img width="1546" height="855" alt="image" src="https://github.com/user-attachments/assets/939ceecf-d1a0-40ce-9547-a867f8f98a9a" />
+
+<img width="1896" height="886" alt="image" src="https://github.com/user-attachments/assets/11b76708-f37b-4b7d-93a9-1eac7cac1d79" />
+
+3. Dans le rapport de scan → on va cliquer sur le gros bouton « Start Dynamic Analyzer ».
+
+
+<img width="1907" height="882" alt="image" src="https://github.com/user-attachments/assets/f037932b-19e9-4c09-9ae0-8109fbc69189" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
