@@ -17,13 +17,7 @@ Dans un Terminal:
 # Étape 3 : Lancement de l’émulateur avec le script MobSF (rooté & prêt pour l’analyse)
 1. On va lancer l’émulateur 'MobSF_DIVA' avec le script MobSF: 
 
-<img width="1340" height="790" alt="image" src="https://github.com/user-attachments/assets/e12642d2-3232-4ebf-ac23-cef52bc84cf9" />
-
-<img width="1166" height="818" alt="image" src="https://github.com/user-attachments/assets/8e7c2032-6e07-4e7e-a4aa-e956751a129f" />
-
-
-<img width="386" height="823" alt="image" src="https://github.com/user-attachments/assets/27a4f61d-6382-413e-9eae-be49a0527934" />
-
+<img width="1770" height="940" alt="image" src="https://github.com/user-attachments/assets/7f145f1f-7644-4097-bca9-292c7d83b002" />
 
 2. Après, on va noter l'identifiant de notre emulateur:
 
@@ -71,6 +65,39 @@ Login / Mot de passe par défaut : mobsf / mobsf
 
 
 <img width="1907" height="882" alt="image" src="https://github.com/user-attachments/assets/f037932b-19e9-4c09-9ae0-8109fbc69189" />
+
+MobSF va :
+
+Installer automatiquement DIVA sur l’émulateur.
+
+Lancer Frida Server
+
+Configurer le proxy HTTPS global.
+
+Ouvrir l’interface Dynamic Analyzer.
+
+1. Avec un Clique sur "Show Screen" dans MobSF pour voir l'émulateur, puis on va ouvrir l'app DIVA
+
+<img width="1901" height="880" alt="image" src="https://github.com/user-attachments/assets/0895dda1-30ce-47cb-96ac-783816a1895c" />
+
+2. Ensuite pour afficher les 13 challenges (Insecure Logging, Hardcoded, Insecure Storage, etc.), on va choisir MainAvtivity
+
+puis on va cliquer sur start activity.
+
+ <img width="636" height="658" alt="image" src="https://github.com/user-attachments/assets/2e741ed5-ce9e-4e7e-a998-1d3665e9372f" />
+
+<img width="1831" height="883" alt="image" src="https://github.com/user-attachments/assets/b2bc3bfc-0408-44d1-a5dc-4db036268e83" />
+
+1️⃣ Runtime Logs (Logcat Stream)
+Clique sur Logcat Stream en haut dans MobSF, puis dans DIVA :
+
+<img width="1920" height="972" alt="image" src="https://github.com/user-attachments/assets/2d406948-cdc5-4499-afc7-3d600da13df2" />
+
+
+
+
+
+
 
 
 
