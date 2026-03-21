@@ -21,6 +21,8 @@ Dans un Terminal:
 
 2. Après, on va noter l'identifiant de notre emulateur:
 
+<img width="791" height="73" alt="image" src="https://github.com/user-attachments/assets/ba3c8a65-f397-4abf-b197-3c86876b18c1" />
+
 
 Donc L’émulateur est maintenant rooté et configuré pour MobSF.
 
